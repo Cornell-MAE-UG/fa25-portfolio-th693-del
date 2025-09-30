@@ -20,11 +20,11 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Biomedical Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.8/4.0 | Graduation: May, 2028
 
-- **[High School Name]**  
+- **Chaparral High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [May, 2024]
 
 ---
 
