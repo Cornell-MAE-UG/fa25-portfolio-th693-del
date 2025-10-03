@@ -48,6 +48,6 @@ $$
 
 where the maximum height is equal to 50cm, so &theta;'=15.47 degrees. Plugging these values into the arctan equation gets an x value of 82.61096, and plugging that value into the original sum of moments equation gets a max load of 28.55089 kN, being able to be raised 50 cm.
 
-![Photo of Desmos solving the equations]({{ "_site/assets/images/Screenshot 2025-10-03 142115.png" | relative_url }}){: .inline-image-l style="width: 220px"}
+![Photo of Desmos solving the equations]({{ "/assets/images/Screenshot 2025-10-03 142115.png" | relative_url }}){: .inline-image-l style="width: 500px"}
 
 This value is slightly less than the max load that the linear actuator can raise, but it allows the load to be lifted to the maximum height, which maximizes both values to the best of my ability.
