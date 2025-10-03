@@ -19,7 +19,7 @@ Based on this, I drew out a free body diagram for the entire system, using the f
 Based on these free body diagrams, I solved for the equilibrium equation,
 
 $$
-\Sigma M_B = x \, cm \cdot F_{Load} - F_{LA} \cdot (150-x)\,cm
+\Sigma M_B =0= x \, cm \cdot F_{Load} - F_{LA} \cdot (150-x)\,cm
 $$
 
 and the equation
@@ -31,11 +31,23 @@ $$
 with
 
 $$
-\theta = \arcsin\left(\frac{50\,cm}{150\,cm}\right) = 19.5^\circ
+\theta = \arcsin\left(\frac{50\,cm}{150\,cm}\right) = 19.5\degree
 $$
 
 so
 
 $$
-\arctan\!\left(\frac{x \sin(19.5^\circ)\,\text{cm} - 10\,\text{cm}}{(150-x)\cos(19.5^\circ)}\right) = \theta'
+\arctan\!\left(\frac{x \sin(19.5\degree)\,\text{cm} - 10\,\text{cm}}{(150-x)\cos(19.5\degree)}\right) = \theta'
 $$
+
+The max height that can be reached is then given by
+
+$$
+\text{H}_{Max}=150\sin(\theta')+10\text{cm}
+$$
+
+where the maximum height is equal to 50cm, so &theta;'=15.47 degrees. Plugging these values into the arctan equation gets an x value of 82.61096, and plugging that value into the original sum of moments equation gets a max load of 28.55089 kN, being able to be raised 50 cm.
+
+![Photo of Desmos solving the equations]({{ "_site/assets/images/Screenshot 2025-10-03 142115.png" | relative_url }}){: .inline-image-l style="width: 220px"}
+
+This value is slightly less than the max load that the linear actuator can raise, but it allows the load to be lifted to the maximum height, which maximizes both values to the best of my ability.
