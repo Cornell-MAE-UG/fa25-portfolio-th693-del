@@ -51,3 +51,7 @@ where the maximum height is equal to 50cm, so &theta;'=15.47 degrees. Plugging t
 ![Photo of Desmos solving the equations]({{ "/assets/images/Desmos.png" | relative_url }}){: .inline-image-l style="height: 200px"}
 
 This value is slightly less than the max load that the linear actuator can raise, but it allows the load to be lifted to the maximum height, which maximizes both values to the best of my ability.
+
+I later added on some later revisions as seen here, finding a radius to allow for a certain degree of deflection, and reanalyzing the system.
+![Photo of the reanalysis]({{ "/assets/images/Hw121.JPEG" | relative_url }}){: .inline-image-l style="height: 200px"}
+![Photo of the deflection calculations]({{ "/assets/images/Hw122.JPEG" | relative_url }}){: .inline-image-l style="height: 200px"}
