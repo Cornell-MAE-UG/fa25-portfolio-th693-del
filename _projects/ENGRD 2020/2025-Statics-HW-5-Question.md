@@ -55,3 +55,4 @@ This value is slightly less than the max load that the linear actuator can raise
 I later added on some later revisions as seen here, finding a radius to allow for a certain degree of deflection, and reanalyzing the system.
 ![Photo of the reanalysis]({{ "/assets/images/Hw121.JPEG" | relative_url }}){: .inline-image-l style="height: 200px"}
 ![Photo of the deflection calculations]({{ "/assets/images/Hw122.JPEG" | relative_url }}){: .inline-image-l style="height: 200px"}
+Some of these values do not seem correct as a 9m diameter for a 150 cm long beam is definitely not correct.
